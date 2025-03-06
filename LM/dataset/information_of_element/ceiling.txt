@@ -1,0 +1,16 @@
+Name: ceiling
+Description: A covering is an element which covers some part of another element and is fully dependent on that other element. Definition according to ISO 6707-1: Final coverings and treatments of surfaces and their intersections. As for the ceiling, the covering is used to represent a ceiling.
+Properties:
+Level: Indicates the level on which this instance is placed. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Height Offset from Level: Specifies the distance this instance is offset relative to the specified level. Range of values: DOUBLE.
+Room Bounding: Specifies whether this instance is used to define the extents of a room. Range of values: [Yes, No].
+Slope: Specifies the rise-to-run slope value if the slope has been defined by a boundary sketch line or slope arrow. Range of values: DOUBLE.
+Comments: Specific comments about the ceiling. Range of values: TEXT.
+Material: The material for the ceiling. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: The color for the ceiling. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Thickness: Specifies the total thickness of the ceiling. Range of values: DOUBLE.
+Type Comments: General comments about the ceiling type. Range of values: TEXT.
+Perimeter: The computed perimeter of this instance. Range of values: READ-ONLY.
+Area: The computed area of this instance. Range of values: READ-ONLY.
+Volume: The computed volume of this instance. Range of values: READ-ONLY.
+Coordinate: The coordinate (vector) of the ceiling. Range of values: READ-ONLY.

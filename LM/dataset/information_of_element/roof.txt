@@ -1,0 +1,19 @@
+Name: roof
+Description: A roof is the covering of the top part of a building, it protects the building against the effects of weather. Definition according to ISO 6707-1: Construction enclosing the building from above.
+Properties:
+Base Level: Sets the level for the roof. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Room Bounding: If selected, it means the roof is part of a room boundary. If not selected, it means the roof is not part of a room boundary. Range of values: [Yes, No].
+Base Offset From Level: Sets the height of the roof above or below the level where it is being sketched. Range of values: DOUBLE.
+Rafter Cut: Defines the rafter cut on an eave. Range of values: [Plumb Cut, Two Cut - Plumb, Two Cut - Square].
+Fascia Depth: The length of the lines defining the fascia. Range of values: DOUBLE.
+Rafter or Truss: This property is a switch for the Plate Offset from Base property. If you choose Rafter, the Plate Offset from Base is measured from the inside of the wall. If you choose Truss, the Plate Offset from Base is measured from the outside of the wall. Range of values: [Rafter, Truss].
+Slope: Changes the value of the slope-defining line to the specified value, without the need to edit the sketch. Range of values: DOUBLE.
+Comments: Comments about a particular roof. Range of values: TEXT.
+Material: The material for the roof. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: The color for the roof. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Thickness: Indicates the thickness of the roof type. Range of values: DOUBLE.
+Type Comments: Comments about the roof type. Range of values: TEXT.
+Maximum Ridge Height: The maximum height of the top of the roof above the base level of the building. Range of values: READ-ONLY.
+Volume: The volume of the roof. Range of values: READ-ONLY.
+Area: The area of the roof. Range of values: READ-ONLY.
+Coordinate: The coordinate (vector) of the roof. Range of values: READ-ONLY.

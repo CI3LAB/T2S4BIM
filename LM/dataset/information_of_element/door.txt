@@ -1,0 +1,22 @@
+Name: door
+Description: The door is a built element that is predominately used to provide controlled access for people, goods, animals and vehicles. It includes constructions with hinged, pivoted, sliding, and additionally revolving and folding operations. Definition according to ISO 6707-1: Construction for closing an opening, intended primarily for access with hinged, pivoted or sliding operation.
+Properties:
+Level: Indicates the level on which this instance is placed. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Sill Height: Specifies the height of the sill in relation to the level on which this instance is placed. Range of values: DOUBLE.
+Orientation: Select vertical or slanted orientation for a door for a door placed in a slanted wall. Range of values: [Vertical, Slanted].
+Head Height: Specifies the height of the top of the instance in relation to the level on which the instance is placed. Range of values: DOUBLE.
+Comments: Specific comments about the door. Range of values: TEXT.
+Wall Closure: The layer wrapping around the door. Range of values: [By host, Neither, Interior, Exterior, Both].
+Function: Indicates whether a door is interior (default value) or exterior. Range of values: [Interior, Exterior].
+Door Material: The material for the door. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Door Color: The color for the door. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Frame Material: The material for the door frame. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Frame Color: The color for the door frame. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Thickness: The thickness of the door. Range of values: DOUBLE.
+Height: The height of the door. Range of values: DOUBLE.
+Trim Projection Exterior: The exterior trim projection. Range of values: DOUBLE.
+Trim Projection Interior: The interior trim projection. Range of values: DOUBLE.
+Trim Width: The width of the door trim. Range of values: DOUBLE.
+Width: The width of the door. Range of values: DOUBLE.
+Type Comments: Comments about the door type. Range of values: TEXT.
+Coordinate: The coordinate (vector) of the door. Range of values: READ-ONLY.

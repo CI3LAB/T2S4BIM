@@ -1,0 +1,25 @@
+Name: stair
+Description: A stair is a vertical passageway allowing occupants to walk (step) from one floor level to another floor level at a different elevation. It may include a landing as an intermediate floor slab. Definition according to ISO 6707-1: Construction comprising a succession of horizontal stages (steps or landings) that make it possible to pass on foot to other levels.
+Properties:
+Base Level: Specifies the level for the base of the stairs. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Base Offset: Sets the offset of the stairs from the base level. Range of values: DOUBLE.
+Top Level: Sets the level for the top of the stairs. Range of values: [None, Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Top Offset: Sets the offset of the stairs from the top level. Range of values: DOUBLE.
+Desired Stair Height: Specifies the height of the stair between the base and top levels. Range of values: DOUBLE.
+Desired Number of Risers: The number of risers is calculated based on the height between levels. Range of values: INT.
+Actual Tread Depth: You can set this value to change the tread depth without having to create a new stair type. Range of values: DOUBLE.
+Comments: Specific comments on the element. Range of values: TEXT.
+Maximum Riser Height: Specifies the maximum height of each riser on the stair element. Range of values: DOUBLE.
+Minimum Tread Depth: Sets the minimum tread width along the center path for all common runs (winder, spiral, and straight). Range of values: DOUBLE.
+Minimum Run Width: Sets the initial value for the width of a common run. Range of values: DOUBLE.
+Function: Indicates whether the stairs are interior (default value) or exterior. Range of values: [Interior, Exterior].
+Right Support: Specifies whether a Stringer - Closed, Carriage - Open, or No right support is created with the stair. A stringer encases the treads and risers. A carriage exposes the treads and risers. Range of values: [None, Stringer - Closed, Carriage - Open].
+Right Lateral Offset: Specifies a value to offset the right support from the edge of the run in a horizontal direction. Range of values: DOUBLE.
+Left Support: Specifies whether a Stringer - Closed, Carriage - Open, or No left support is created with the stair. A stringer encases the treads and risers. A carriage exposes the treads and risers. Range of values: [None, Stringer - Closed, Carriage - Open].
+Left Lateral Offset: Specifies a value to offset the left support from the edge of the run in a horizontal direction. Range of values: DOUBLE.
+Middle Support: Indicates whether intermediate supports are used in the stair. Range of values: [Yes, No].
+Middle Support Number: Defines the number of intermediate supports used in the stair. Range of values: INT.
+Type Comments: Specific comments on the element type. Range of values: TEXT.
+Actual Number of Risers: Normally the same as Desired Number of Risers, but may vary if you do not complete adding the correct number of risers for the given run of the stairs. Range of values: READ-ONLY.
+Actual Riser Height: Displays the actual riser height. The value is equal to or less than the value specified in the Maximum Riser Height stair type property. Range of values: READ-ONLY.
+Coordinate: The coordinate (vector) of the stairs. Range of values: READ-ONLY.

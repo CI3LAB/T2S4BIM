@@ -1,0 +1,19 @@
+Name: ramp
+Description: A ramp is a vertical passageway which provides a human or vehicle circulation link between one floor level and another floor level at a different elevation. It may include a landing as an intermediate floor slab. A ramp normally does not include steps. Definition according to ISO 6707-1: Inclined way or floor joining two surfaces at different levels.
+Properties:
+Base Level: Sets the base of the ramp. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Base Offset: Sets the ramp's height from its base level. Range of values: DOUBLE.
+Top Level: Sets the top of the ramp. Range of values: [None, Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Top Offset: Sets the ramp's offset from the top level. Range of values: DOUBLE.
+Multistory Top Level: Sets the top of the ramp in a multi-story building. Range of values: [None, Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Width: Width of the ramp. Range of values: DOUBLE.
+Comments: Specific comments about the ramp. Range of values: TEXT.
+Shape: Applies a shape to the ramp for display purposes. Range of values: [Thick, Solid].
+Thickness: Sets the thickness of the ramp. Range of values: DOUBLE.
+Function: Indicates whether a ramp is interior (default value) or exterior. Range of values: [Interior, Exterior].
+Material: Material applied to the surface of the ramp for rendering. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: Color applied to the surface of the ramp for rendering. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Maximum Incline Length: Specifies the maximum amount of consecutive rise in a ramp before a landing is required. Range of values: DOUBLE.
+Max Slope: Sets the value for the run (x) to define the maximum slope (1/x) for the ramp. Range of values: INT.
+Type Comments: Ramp type comments. Range of values: TEXT.
+Coordinate: The coordinate (vector) of the ramp. Range of values: READ-ONLY.

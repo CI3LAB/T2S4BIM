@@ -1,0 +1,6 @@
+(
+intent: retrieval
+(element: [ELEMENT])
+(property: [PROPERTY])
+(property: [PROPERTY])
+)

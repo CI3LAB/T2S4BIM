@@ -1,0 +1,24 @@
+{
+    "intent": "modification",
+    "element": "window",
+    "property": [
+        {
+            "property": "Glass Pane Material",
+            "target_value": "Glass"
+        },
+        {
+            "property": "Glass Pane Color",
+            "target_value": "Blue"
+        },
+        {
+            "property": "Sill Height",
+            "target_value": "520",
+            "target_unit": "mm"
+        },
+        {
+            "property": "Height",
+            "target_value": "1.9",
+            "target_unit": "m"
+        }
+    ]
+}

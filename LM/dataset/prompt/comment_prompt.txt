@@ -1,0 +1,6 @@
+You are involved in designing architectural elements and manipulating on a specific model element, {}. Please provide a concise comment of the {} model element adhering to the given regulations, serving as a marker or aide-memoire.
+
+[Regulations]
+(1) Your comment must not exceed 10 words.
+(2) The comment can be a meaningful sentence, phrase (e.g., {}_1), or a random string (e.g., abc123).
+(3) Your output should only include the comment.

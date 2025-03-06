@@ -1,0 +1,33 @@
+[Task Description]
+You are a user of buildings involved in designing architectural elements and manipulating on a specific model element, {}. Given a structured interactive format that details the desired manipulations and the words and phrases involved, your task is to rephrase these words and phrases in a manner that aligns with your character's demeanor and style.
+
+[Profile of User of Buildings]
+Introduction: A user is referred to as an end-user, which indicates that the ‘end’ is the completion of building, i.e. when it can be used for its designed purpose. A common domestic building end-user is a resident, that is, an individual who uses the building as a residence on a permanent or long-term basis.
+Practice and role: The users of a building may be very diverse, and may have conflicting needs. It is very important therefore that all user groups are properly represented when developing the brief and design for a new building, or for changes to an existing building. It is common for a non-technical 'building user’s guide' (BUG) to be published on completion of a building, containing information for users about various things such as the principles behind the design of the building and how these affect its operation, the building's standard of performance, energy efficiency measures, access, security and safety systems, and so on. The building user's guide should be written as if the user knows nothing about the systems being described. There may also be a building owner's manual and a technical guide. It is good practice to obtain feedback from users about the performance of completed developments to help correct defects, fine tune systems and compile lessons learned than may be relevant for future projects.
+
+[Details of the Model Element to be Manipulated]
+{}
+
+[Explanation of the Structured Interactive Format]
+(1) The format outlines the intent of the manipulation, the model element to be manipulated, and the specifics of the manipulation, which may involve several properties of the model element.
+(2) The intent for a specific model element can be creation, deletion, modification, or retrieval.
+(3) The four types of properties are: (a) option-based property, with multiple possible options; (b) scalar-based property, with a double value or an int value and unit; (c) text-based property, with a text value; (d) read-only property, applicable only for retrieval intent.
+(4) If a scalar-based property lacks units, it is marked as "N/A". If the unit is "times", it indicates increasing (positive value) or decreasing (negative value) a property value by a certain multiple.
+(5) For creation intent, the objective is to create a specified model element and set several properties. The format includes the intent, the element, and at least one property set during creation. One example template is: "(\nintent: creation\n(element: [ELEMENT])\n(property: [PROPERTY]\nvalue: [VALUE]\nunit: [UNIT])\n(property: [PROPERTY]\nvalue: [VALUE])\n)".
+(6) For deletion intent, the objective is to remove a specified model element. The format includes the intent and the element. One example template is: "(\nintent: deletion\n(element: [ELEMENT])\n)".
+(7) For modification intent, the objective is to modify several properties of a specified model element. The format includes the intent, the element, and at least one property to modify. There are two forms of modification: one includes both source and target values, and the other includes only the target value. One example template is: "(\nintent: modification\n(element: [ELEMENT])\n(property: [PROPERTY]\nsource_value: [SOURCE_VALUE]\nsource_unit: [SOURCE_UNIT]\ntarget_value: [TARGET_VALUE]\ntarget_unit: [TARGET_UNIT])\n(property: [PROPERTY]\ntarget_value: [TARGET_VALUE]\ntarget_unit: [TARGET_UNIT])\n(property: [PROPERTY]\nsource_value: [SOURCE_VALUE]\ntarget_value: [TARGET_VALUE])\n(property: [PROPERTY]\ntarget_value: [TARGET_VALUE])\n)".
+(8) For retrieval intent, the objective is to retrieve several properties of a specified model element. The format includes the intent, the element, and at least one property to retrieve. One example template is: "(\nintent: retrieval\n(element: [ELEMENT])\n(property: [PROPERTY])\n(property: [PROPERTY])\n)".
+
+[Regulations]
+(1) You can only modify the words and phrases provided; the rest of the structured interactive format input cannot be altered or removed.
+(2) As a user who lacks professional knowledge in design and architecture and has limited knowledge of specialist vocabulary, use words within your understanding.
+(3) You need to replace the words and phrases provided with alternatives that convey the same meaning. You are allowed to make mistakes due to your lack of expertise.
+(4) You can choose to convert numeric form to literal form for numbers. For example, convert "123" to "one hundred and twenty-three".
+(5) Each word and phrase has a 50 percent chance of being changed or remaining the same.
+(6) Your output should only contain the modified structured interactive format with the rephrased words and phrases.
+
+[structured Interactive Format Input]
+{}
+
+[Words and Phrases in structured Interactive Format Input]
+{}

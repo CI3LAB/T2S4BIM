@@ -1,0 +1,18 @@
+Name: window
+Description: The window is a building element that is predominately used to provide natural light and fresh air. It includes vertical opening but also horizontal opening such as skylights or light domes. It includes constructions with swinging, pivoting, sliding, or revolving panels and fixed panels. A window consists of a lining and one or several panels. Definition according to ISO 6707-1: Construction for closing a vertical or near vertical opening in a wall or pitched roof that will admit light and may admit fresh air.
+Properties:
+Level: Indicates the level on which this instance is placed. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Sill Height: Specifies the height of the sill in relation to the level on which this instance is placed. Range of values: DOUBLE.
+Orientation: Select vertical or slanted orientation for a window placed in a slanted wall. Range of values: [Vertical, Slanted].
+Head Height: Specifies the height of the top of the instance in relation to the level on which the instance is placed. Range of values: DOUBLE.
+Comments: Specific comments about the window. Range of values: TEXT.
+Wall Closure: This parameter sets the layer wrapping around the window. Range of values: [By host, Neither, Interior, Exterior, Both].
+Glass Pane Material: The material for the glass panes in the window. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Glass Pane Color: The color for the glass panes in the window. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Sash Material: The material for the window sash. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Sash Color: The color for the window sash. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Height: The height of the opening of the window. Range of values: DOUBLE.
+Width: The width of the window. Range of values: DOUBLE.
+Window Inset: The inset of the window into the wall. Range of values: DOUBLE.
+Type Comments: Specific comments about the window type. Range of values: TEXT.
+Coordinate: The coordinate (vector) of the window. Range of values: READ-ONLY.

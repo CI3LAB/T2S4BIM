@@ -1,0 +1,18 @@
+Name: floor
+Description: A slab is a component of the construction that may enclose a space vertically. The slab may provide the lower support (floor) or upper construction (roof slab) in any space in a building. A slab may have openings, such as floor openings, or recesses. Definition according to ISO 6707-1: Thick, flat or shaped component, usually larger than 300 mm square, used to form a covering or projecting from a building. As for the floor, the slab is used to represent a floor slab.
+Properties:
+Level: The level to which the floor is constrained. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Height Offset from Level: Specifies the elevation of the top of the floor relative to the Level parameter. Range of values: DOUBLE.
+Room Bounding: Indicates that the floor is a room-bounding element. Range of values: [Yes, No].
+Structural: Indicates that the element has an analytical model. Checking this box indicates that the floor is structural. Range of values: [Yes, No].
+Slope: Changes the slope-defining lines to the specified value, without the need to edit the sketch. Range of values: DOUBLE.
+Comments: Specific comments related to the floor that are not already defined in the description or type comments. Range of values: TEXT.
+Material: The material for the floor. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: The color for the floor. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Thickness: Indicates the thickness of a floor type. Range of values: DOUBLE.
+Function: Indicates whether a floor is interior or exterior. Range of values: [Interior, Exterior].
+Type Comments: Comments about the floor type. Range of values: TEXT.
+Perimeter: The perimeter of the floor. Range of values: READ-ONLY.
+Area: The area of the floor. Range of values: READ-ONLY.
+Volume: The volume of the floor. Range of values: READ-ONLY.
+Coordinate: The coordinate (vector) of the floor. Range of values: READ-ONLY.

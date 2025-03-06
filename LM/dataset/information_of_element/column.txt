@@ -1,0 +1,18 @@
+Name: architectural column
+Description: An architectural column is a vertical architectural member which often is aligned with a structural grid intersection. It represents such a member from an architectural point of view in which case it may represent a non load bearing element.
+Properties:
+Base Level: Specifies the level on which the base of the column rests. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Base Offset: Specifies distance from the base level. Range of values: DOUBLE.
+Top Level: Specifies the level that the top of the column reaches. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Top Offset: Specifies distance from the top level. Range of values: DOUBLE.
+Moves with Grids: Columns move when grid lines are moved. Range of values: [Yes, No].
+Room Bounding: Determines whether the column is room-bounding. Range of values: [Yes, No].
+Comments: Specific comments for the column instance. Range of values: TEXT.
+Material: The material for the column. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: The color for the column. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Depth: Sets the depth of columns when placed. Range of values: DOUBLE.
+Offset Base: Sets the offset of the column base. Range of values: DOUBLE.
+Offset Top: Sets the offset of the column top. Range of values: DOUBLE.
+Width: Sets the width of columns when placed. Range of values: DOUBLE.
+Type Comments: Specific building or design comments about the column type. Range of values: TEXT.
+Coordinate: The coordinate (vector) of the column. Range of values: READ-ONLY.

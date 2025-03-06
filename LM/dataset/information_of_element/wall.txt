@@ -1,0 +1,25 @@
+Name: wall
+Description: The wall represents a vertical construction that may bound or subdivide spaces. Wall are usually vertical, or nearly vertical, planar elements, often designed to bear structural loads. A wall is however not required to be load bearing. A wall may have openings, such as wall openings, openings used for windows or doors, or niches and recesses. Definition according to ISO 6707-1: Vertical construction usually in masonry or in concrete which bounds or subdivides a construction works and fulfils a load bearing or retaining function.
+Properties:
+Base Constraint: The base level of the wall. Range of values: [Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Base Offset: The wall's height from its base constraint. Range of values: DOUBLE.
+Top Constraint: Wall height extends to the value specified in Unconnected Height. Range of values: [Unconnected, Level 0, Level 1, Level 2, Level 3, Level 4, Level 5, Level 6, Level 7].
+Top Offset: The offset of the wall from the top level. Range of values: DOUBLE.
+Unconnected Height: The height of the wall when it is sketched, measured upwards from its base. Range of values: DOUBLE.
+Room Bounding: If selected, the wall is part of a room boundary. If cleared, the wall is not part of a room boundary. Range of values: [Yes, No].
+Cross-Section: Determines whether the wall is vertical, slanted or tapered. Range of values: [Vertical, Slanted, Tapered].
+Angle from Vertical: Displays only when Slanted is selected for Cross-Section. Specifies the angle for a slanted walls. Specify an angle between 90° and -90°, where 0° is vertical. Range of values: DOUBLE.
+Structural: Indicates that the element has an analytical model. Checking this box indicates that the wall is structural. Range of values: [Yes, No].
+Structural Usage: The structural usage of the wall. Range of values: [Bearing, Shear, Structural combined].
+Comments: Specific comments added to describe the wall. Range of values: TEXT.
+Wrapping at Inserts: Select either Do no wrap (default), Exterior, Interior, or Both. Sets the layer wrapping of walls at inserts. Range of values: [Do no wrap, Exterior, Interior, Both].
+Wrapping at Ends: Select either None, Exterior, or Interior. Sets the layer wrapping of wall end caps. Range of values: [None, Exterior, Interior].
+Width: Sets the width of the wall. Range of values: DOUBLE.
+Function: Categorizes the wall as Exterior, Interior, Retaining, Foundation, Soffit, or Core-shaft. Range of values: [Exterior, Interior, Retaining, Foundation, Soffit, Core-shaft].
+Material: The material for the wall. Range of values: [Ceramic, Concrete, Earth, Glass, Masonry, Metal, Plastic, Stone, Textile, Wood].
+Color: The color for the wall. Range of values: [Red, Green, Blue, Yellow, Orange, Purple, Pink, Brown, Gray, White, Black].
+Type Comments: A field for placing general comments about the wall type. Range of values: TEXT.
+Length: The length of the wall. Range of values: READ-ONLY.
+Area: The area of the wall. Range of values: READ-ONLY.
+Volume: The volume of the wall. Range of values: READ-ONLY.
+Coordinate: The coordinate (vector) of the wall. Range of values: READ-ONLY.
